@@ -2,7 +2,16 @@ package com.LickingHeights;
 
 public class Main {
 
+
     public static void main(String[] args) {
-	// write your code here
+    Greeting("Bob");
+    Greeting("Sarah");
+    Greeting("Dan");
+    Greeting("Jessica");
+
+    }
+
+    public static void Greeting(String names) {
+        System.out.println("Hello, " + names);
     }
 }
