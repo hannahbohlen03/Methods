@@ -17,16 +17,26 @@ public class Main {
         int c = multiply(a, b);
         int d = multiply(c, b);
 
+        System.out.println(" ");
+
+        Detail("loud");
+        Detail("fast");
+        Detail("sad");
+        Detail("smelly");
+
 
     }
 
     public static void Greeting(String names) {
         System.out.println("Good morning, " + names);
     }
-
     public static int multiply(int firstNumber, int secondNumber) {
         return firstNumber * secondNumber;
     }
+    public static void Detail(String adjectives){
+        System.out.println("The lion was very " + adjectives +".");
+    }
+}
 }
 
 
