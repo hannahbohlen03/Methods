@@ -24,6 +24,12 @@ public class Main {
         Detail("sad");
         Detail("smelly");
 
+        System.out.println(" ");
+
+        Preference("tiger");
+        Preference("bear");
+        Preference("dog");
+        Preference("penguin");
 
     }
 
@@ -36,7 +42,12 @@ public class Main {
     public static void Detail(String adjectives){
         System.out.println("The lion was very " + adjectives +".");
     }
-}
-}
+    public static void Preference(String animal){
+        System.out.println("My favorite animal is " + animal + ".");
+    }
+
+
+    }
+
 
 
