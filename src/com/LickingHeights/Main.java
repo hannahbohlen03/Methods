@@ -11,14 +11,6 @@ public class Main {
 
         System.out.println(" ");
 
-        int a = 12;
-        int b = 43;
-        System.out.println(multiply(a, b));
-        int c = multiply(a, b);
-        int d = multiply(c, b);
-
-        System.out.println(" ");
-
         Detail("loud");
         Detail("fast");
         Detail("sad");
@@ -30,6 +22,20 @@ public class Main {
         Preference("bear");
         Preference("dog");
         Preference("penguin");
+
+        System.out.println(" ");
+
+        int a = 12;
+        int b = 43;
+        System.out.println("This number is " + a + " times " + b + ".");
+        System.out.println(multiply(a, b));
+
+        System.out.println(" ");
+
+        int x = 435;
+        int y = 24;
+        System.out.println(x + " divided by " + y + " is the number below.");
+        System.out.println(Divide(x,y));
 
     }
 
@@ -45,6 +51,10 @@ public class Main {
     public static void Preference(String animal){
         System.out.println("My favorite animal is " + animal + ".");
     }
+    public static int Divide(int firstNumber, int secondNumber){
+        return firstNumber / secondNumber;
+    }
+
 
 
     }
