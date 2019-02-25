@@ -37,6 +37,11 @@ public class Main {
         System.out.println(x + " divided by " + y + " is the number below.");
         System.out.println(Divide(x,y));
 
+        System.out.println(" ");
+
+        System.out.println("Since " + y + " does not fit into " + x + " evenly, the modulus of " + x + " by " + y + " is the number below.");
+        System.out.println(Modulus(x,y));
+
     }
 
     public static void Greeting(String names) {
@@ -54,8 +59,9 @@ public class Main {
     public static int Divide(int firstNumber, int secondNumber){
         return firstNumber / secondNumber;
     }
-
-
+    public static int Modulus(int firstNumber, int secondNumber){
+        return firstNumber % secondNumber;
+    }
 
     }
 
